@@ -1,0 +1,11 @@
+{
+  "name": "rp5-monitor-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "scp -r monitor-api.ts rp5:/home/natlus/monitor/server && ssh rp5 sudo systemctl restart monitor_temps_api"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

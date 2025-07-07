@@ -1,0 +1,16 @@
+{
+  "name": "rp5-home",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "bun run build && scp -r dist/* rp5:/home/natlus/homepage"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.2.8",
+    "astro": "^5.11.0"
+  }
+}
